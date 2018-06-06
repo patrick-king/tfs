@@ -1,0 +1,5 @@
+
+--requires team foundation power tools tfpt
+--Replace the <> values with your own.
+--need to be in a folder that is mapped to a workspace so that tfpt can determine the workspace
+tfpt unshelve "Reporting Using WCF - Sample";<usernamegoeshere> /migrate /source:$/<sourcebranchgoeshere> /target:$/<targetbranchgoeshere>
